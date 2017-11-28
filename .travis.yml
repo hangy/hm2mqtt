@@ -9,6 +9,6 @@ deploy:
     - "build/distributions/hm2mqtt-addon.tar.gz"
   skip_cleanup: true
   on:
-    repo: owagner/hm2mqtt
+    repo: hangy/hm2mqtt
     tags: true
     all_branches: true
