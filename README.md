@@ -211,6 +211,15 @@ See also
 
 Changelog
 ---------
+* 0.20-beta.2 - 2017/11/29 - hangy
+  - Updated more URLs to point to my repository for update checks and downloads.
+
+* 0.20-beta.1 - 2017/11/29 - hangy
+  - Use a custom `SSLContext` in order to allow a specific SSL/TLS versions to be configured. owagner/hm2mqtt#12
+  - add start scripts (@pgollor)
+  - updated armv6 compatible 'update_addon' binary (@jens-maus)
+  - fixed http-equiv meta header (@jens-maus)
+
 * 0.19 - 2016/06/23 - owagner
   - add command/list to get a channel list. Payload is a Java RegEx pattern, result is returned in "<prefix>/result/list"
 
