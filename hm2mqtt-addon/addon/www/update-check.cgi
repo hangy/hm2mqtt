@@ -1,7 +1,7 @@
 #!/bin/tclsh
 
-set checkURL    "https://raw.githubusercontent.com/owagner/hm2mqtt/master/hm2mqtt-addon/VERSION"
-set downloadURL "https://github.com/owagner/hm2mqtt/releases/latest"
+set checkURL    "https://raw.githubusercontent.com/hangy/hm2mqtt/master/hm2mqtt-addon/VERSION"
+set downloadURL "https://github.com/hangy/hm2mqtt/releases/latest"
 
 catch {
   set input $env(QUERY_STRING)
