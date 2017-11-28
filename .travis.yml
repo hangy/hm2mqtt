@@ -3,8 +3,8 @@ before_deploy: "gradle jar addon"
 deploy:
   provider: releases
   api_key:
-    secure: BSI9PlQhhOMXUm2cr8YZs+yT5vX+dLyuPNpx8uvbO1R4TvnT2hZlVt4CDV3iQUNxMF5dD+1NIbZGKfXYk7bH2Ei8AGpiObhl7peFjX9wezqV5aRct2A3eS50mO7uzD3DOt7+6jcpVzTzwiNuzRkWRuSsOocTQc5kE4A5OfcAspY=
-  file: 
+    secure: F4S+r12wGk7bRtZqBPFb4VZAhypmB6v307L7zQSxmKsmYJOCiI1ZyIrqhHWZ7hVfQMdGsRuDRkaOJRSkQMVsADnePYwVWUiA4hHcZyt9PdDg1sDe97edXQqSX2KhhJ2yYaUuxAT/y+J58DtmeIe4CIdN/4m4psmHY3d3kp/Gq/Iwk9GCDtzeOjFqnSI6F9uw/bYyKezosgY3b2G856mmAB3V/dQtR+EKh1gFTRvY14ZWnTDuF7iY0KZrjxsFOE+cK77C/IiVw5M3pKErfj3VsBS50muiDz8L00XWqbVibo/lQrYs9q/CwSICezfjStxOpNdnTbrsw3etuaB74LZiHVj46IjyATx01Z3Q6ouvpwqv/TkF2dRWQCFMkQZM6nmhNwd+u4q81zuuYQUfibwyrX3PZwgq6FG2vh3Ol4SBKPyGgCl5b3RtTZb5qIpMoaIQU7NaKD6N0NjPEmnRsMv3tFkqueEobDnRT3HENEgWxYap4p6cexfqakaZvAqhQTb7Y1qEcmeb9TThCMZrMBYBPt991eYv49TaXYvy1ALUjP1IjI2wia4FY3olSfa8TwWvJhk+LjjpbmHLAZE/8RrqmqHELPuhNoA4zE3BKomrA1ste6RYMQEorBTgBiEALR/wkLkw0UNq8T+EBuRZ+HDTemwysAvlYy0JpBO+lbHqhlY=
+  file:
     - "build/libs/hm2mqtt.jar"
     - "build/distributions/hm2mqtt-addon.tar.gz"
   skip_cleanup: true
