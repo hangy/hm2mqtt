@@ -211,6 +211,11 @@ See also
 
 Changelog
 ---------
+* 0.20-beta.3 - 2019/10/29 - hangy
+  - fix build with Gradle 5.x
+  - dependency updates via @dependabot
+  - more fixes for the content-type header of update-check.cgi (@jens-maus)
+
 * 0.20-beta.2 - 2017/11/29 - hangy
   - Updated more URLs to point to my repository for update checks and downloads.
 
