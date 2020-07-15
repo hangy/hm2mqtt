@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
 	compile 'com.eclipsesource.minimal-json:minimal-json:0.9.5'
-	compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.4'
+	compile 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.2.5'
 }
 
 task listJars {
