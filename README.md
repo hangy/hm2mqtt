@@ -211,6 +211,13 @@ See also
 
 Changelog
 ---------
+* 0.20-beta.5 - 2021/01/03 - hangy
+  - dependency updates via @dependabot
+
+* 0.20-beta.4 - 2019/12/08 - hangy
+  - use alternate java location for RaspberryMatic
+  - build with Java 1.8
+
 * 0.20-beta.3 - 2019/10/29 - hangy
   - fix build with Gradle 5.x
   - dependency updates via @dependabot
